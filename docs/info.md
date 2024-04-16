@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+multiplies two 4-bit numbers by shift-and-add using microcode
 
 ## How to test
 
-Explain how to use your project
+Enter two 4-bit numbers on input pins
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Just demo board
