@@ -1,16 +1,3 @@
-`include "RegFour.sv"
-`include "RegEight.sv"
-`include "Mux2to1V1.sv"
-`include "Mux2to1V2.sv"
-`include "UniversalShiftReg.sv"
-`include "ALU.sv"
-`include "TimingGenerator.sv"
-`include "ProgramCounter.sv"
-`include "MicroCodeROM.sv"
-`include "Decoder.sv"
-`include "ControlUnit.sv"
-`include "DataPath.sv"
-
 module SimpleMicro(input sys_clk, nsys_rst, input [3:0] inputA, inputB, output [7:0] SMP_out);
   
   wire sys_rst, flag, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12;
