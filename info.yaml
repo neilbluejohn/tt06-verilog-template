@@ -16,28 +16,40 @@ project:
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
     - "project.v"
+    - "tt_um_micromult_njp.v"
+    - "ControlUnit.v"
+    - "DataPath.v"
+    - "ALU.v"
+    - "MicroCodeROM.v"
+    - "Mux2to1V1.v"
+    - "Mux2to1V2.v"
+    - "ProgramCounter.v"
+    - "RegEight.v"
+    - "RegFour.v"
+    - "TimingGenerator.v"
+    - ".v"UniversalShiftReg
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "A[0]"
+  ui[1]: "A[1]"
+  ui[2]: "A[2]"
+  ui[3]: "A[3]"
+  ui[4]: "B[0]"
+  ui[5]: "B[1]"
+  ui[6]: "B[2]"
+  ui[7]: "B[3]"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "MP[0]"
+  uo[1]: "MP[1]"
+  uo[2]: "MP[2]"
+  uo[3]: "MP[3]"
+  uo[4]: "MP[4]"
+  uo[5]: "MP[5]"
+  uo[6]: "MP[6]"
+  uo[7]: "MP[7]"
 
   # Bidirectional pins
   uio[0]: ""
