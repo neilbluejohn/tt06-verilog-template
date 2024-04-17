@@ -27,7 +27,7 @@ project:
     - "RegEight.v"
     - "RegFour.v"
     - "TimingGenerator.v"
-    - ".v"UniversalShiftReg
+    - "UniversalShiftReg.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
