@@ -4,7 +4,7 @@
  */
 
 `default_nettype none
-wokwi_id: 0
+
 module tt_um_micro_mult_njp (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
