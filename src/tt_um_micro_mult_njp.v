@@ -22,7 +22,7 @@ module tt_um_micro_mult_njp (
   assign uio_oe  = 0;
   
   wire sys_clk, sys_rst, flag, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12;
-  
+  wire [3:0] A, B;
   assign sys_rst = !rst_n;
   assign sys_clk = clk;
   assign ui_in[3:0] = A;
