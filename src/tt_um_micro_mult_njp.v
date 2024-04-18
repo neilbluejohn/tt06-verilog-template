@@ -20,9 +20,6 @@ module tt_um_micro_mult_njp (
   assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
   assign uio_out = 0;
   assign uio_oe  = 0;
-
-
-module SimpleMicro(input sys_clk, nsys_rst, input [3:0] A, B, output [7:0] MP);
   
   wire sys_rst, flag, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12;
   
