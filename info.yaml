@@ -1,5 +1,8 @@
 # Tiny Tapeout project information
 project:
+
+  wokwi_id: 0
+
   title:        "Micro Code Multiplier"      # Project title
   author:       "Neil Powell"      # Your name
   discord:      "neilbluejohn"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
