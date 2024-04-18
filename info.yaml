@@ -16,7 +16,7 @@ project:
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
     - "project.v"
-    - "tt_um_micromult_njp.v"
+    - "tt_um_micro_mult_njp.v"
     - "ControlUnit.v"
     - "DataPath.v"
     - "ALU.v"
