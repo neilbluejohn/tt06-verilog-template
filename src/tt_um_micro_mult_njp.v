@@ -21,12 +21,12 @@ module tt_um_micro_mult_njp (
   assign uio_out = 0;
   assign uio_oe  = 0;
   
-  wire sys_rst, flag, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12;
+  wire sys_clk, sys_rst, flag, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12;
   
   assign sys_rst = !rst_n;
   assign sys_clk = clk;
   assign ui_in[3:0] = A;
-    assign ui_in[7:4] = B;
+  assign ui_in[7:4] = B;
   assign uo_out = MP;
                
   ControlUnit P1(.sys_clk(sys_clk), .sys_rst(sys_rst), .flag(flag), .C0(C0), .C1(C1), .C2(C2), .C3(C3), .C4(C4), .C5(C5), .C6(C6), .C7(C7), .C8(C8), .C9(C9), .C10(C10), .C11(C11), .C12(C12));
